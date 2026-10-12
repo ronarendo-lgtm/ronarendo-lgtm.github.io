@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Personal Drive Sync is a personal Google Drive integration using the open-source rclone command-line tool.">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Personal Drive Sync — Google Drive integration</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="top"><div class="wrap nav">
+    <a class="brand" href="./"><span class="mark" aria-hidden="true">↗</span><span>Personal Drive Sync</span></a>
+    <nav class="navlinks" aria-label="Primary navigation"><a href="./" aria-current="page">Home</a><a href="privacy.html">Privacy policy</a><a href="https://rclone.org/drive/">About rclone ↗</a></nav>
+  </div></header>
+  <main class="wrap">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="eyebrow">Personal Google Drive integration</div>
+      <h1 id="hero-title">Your files. Your Drive. Your control.</h1>
+      <p class="lead">Personal Drive Sync is a privately operated setup using <a href="https://rclone.org/">rclone</a>, an open-source command-line tool, to access and manage a Google Drive account with permission from its owner.</p>
+      <div class="tags"><span class="tag">OAuth 2.0 authorization</span><span class="tag">User-controlled operations</span><span class="tag">No sign-in on this website</span></div>
+    </section>
+    <section class="section" aria-labelledby="how-title">
+      <h2 id="how-title">How it works</h2>
+      <div class="grid">
+        <div class="panel"><div class="num" aria-hidden="true">01</div><h2>Authorize</h2><p>The account owner grants the selected Google Drive permissions through Google's OAuth authorization flow, initiated by rclone.</p></div>
+        <div class="panel"><div class="num" aria-hidden="true">02</div><h2>Transfer</h2><p>rclone performs file listing, transfers, synchronization or other actions explicitly requested by the owner, according to granted permissions.</p></div>
+        <div class="panel"><div class="num" aria-hidden="true">03</div><h2>Stay in control</h2><p>Google account access can be revoked at any time in the account's Google security settings.</p></div>
+      </div>
+      <div class="note"><p><strong>About this website:</strong> This is an informational homepage for a personal rclone Google Drive OAuth client. It is not a login portal and does not receive OAuth callback codes, access tokens or Google Drive files.</p></div>
+    </section>
+    <section class="section" aria-labelledby="privacy-title">
+      <h2 id="privacy-title">Privacy by design</h2>
+      <p>This static website has no forms, analytics scripts or user account system. The separate, locally configured rclone application processes Google Drive information only in response to operations initiated by the user. See the policy for details about permissions, handling of files and tokens, and revoking access.</p>
+      <div class="links"><a class="btn primary" href="privacy.html">Read privacy policy →</a><a class="btn" href="https://rclone.org/drive/#making-your-own-client-id">rclone setup documentation ↗</a></div>
+    </section>
+  </main>
+  <footer><div class="wrap foot"><span>© 2026 Personal Drive Sync · Personal-use OAuth information site</span><span><a href="privacy.html">Privacy</a> · <a href="https://github.com/ronarendo-lgtm">GitHub</a></span></div></footer>
+</body>
+</html>
